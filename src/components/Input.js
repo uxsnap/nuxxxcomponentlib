@@ -1,5 +1,5 @@
 import React from 'react';
-import { checkClass } from "../utils";
+import { checkClass } from "./index";
 import { Icon } from './index';
 
 export default ({ 

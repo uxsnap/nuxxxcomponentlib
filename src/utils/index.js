@@ -1,3 +1,3 @@
 export { default as checkClass } from './checkClass';
 export { default as generateKey } from './generateKey';
-export * from './constants';
+export { RES_STATUS, MIN_SEARCH_LENGTH } from './constants';

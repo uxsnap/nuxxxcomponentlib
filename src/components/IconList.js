@@ -1,5 +1,5 @@
 import React from 'react';
-import { generateKey } from '../utils';
+import { generateKey } from './index';
 import { Icon } from './index';
 
 export default ({ className, items, stub }) => (
