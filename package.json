@@ -1,6 +1,6 @@
 {
-  "name": "@nuxxx_components",
-  "version": "1.0.2",
+  "name": "nuxxxcomponents",
+  "version": "1.0.3",
   "description": "",
   "main": "dist/index.js",
   "scripts": {},
