@@ -2,10 +2,10 @@ const path = require("path");
 const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
-  mode: "production",
+  mode: "development",
   entry: "./src/components/index.js", // that's no problem
   output: {
-    path: path.resolve("build"),
+    path: path.resolve("dist"),
     filename: "index.js",
   },
   module: {
