@@ -1,4 +1,4 @@
-export * as styles from '../styles/main.sass';
+// export * as styles from '../styles/main.sass';
 export { default as Row } from './Row';
 export { default as Col } from './Col';
 export { default as Button } from './Button';
