@@ -1,8 +1,9 @@
 const path = require('path');
-const CopyPlugin = require("copy-webpack-plugin");
+const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
-  entry: "./src/components/index.js",
+  mode: 'production',
+  entry: './src/components/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'index.js',
@@ -13,7 +14,7 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules/,
         use: {
-          loader: "babel-loader"
+          loader: 'babel-loader'
         },
       },
       {
@@ -36,8 +37,7 @@ module.exports = {
   plugins: [
     new CopyPlugin({
       patterns: [
-        { from: "src/styles", to: "styles" },
-        // { from: "other", to: "public" },
+        { from: 'src/styles', to: 'styles' },
       ],
     }),
   ],

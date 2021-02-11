@@ -1,14 +1,15 @@
 {
   "name": "nuxxxcomponents",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "",
-  "main": "dist/index.js",
+  "main": "./dist/index.js",
   "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.12.13",
+    "@babel/plugin-transform-react-jsx": "^7.12.13",
     "@babel/preset-env": "^7.12.13",
     "@babel/preset-react": "^7.12.13",
     "babel-loader": "^8.2.2",
