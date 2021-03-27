@@ -3,7 +3,7 @@ const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   mode: 'production',
-  entry: './src/components/index.js',
+  entry: './src/components/index.ts',
   output: {
     path: path.resolve('dist/'),
     filename: 'index.js',
@@ -24,7 +24,8 @@ module.exports = {
         test: /\.(png|jpe?g|gif)$/i,
         loader: 'file-loader',
         options: { name: '[contenthash].[ext]' }
-      }
+      },
+      { test: /\.tsx?$/, loader: "ts-loader" }
     ],
   },
   plugins: [
@@ -36,7 +37,7 @@ module.exports = {
     }),
   ],
   resolve: {
-    extensions: ['.js', '.json', '.jsx', '.es6']
+    extensions: ['.gif', '.ts', '.tsx', '.js', '.json', '.jsx', '.es6']
   },
   externals: { react: 'react' }
 };

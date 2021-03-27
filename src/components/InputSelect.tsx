@@ -1,6 +1,19 @@
 import React from 'react';
 import { Input } from './index';
 
+export interface InputSelect {
+	value: string;
+	onChange: (val: string) => void;
+	rightIcon?: string;
+	placeholder?: string;
+	items?: Array<any>;
+	Component: any;
+	Stub: any;
+	minLength: number;
+	checked: Array<string>;
+	checkedIcon?: string;
+}
+
 export const InputSelect = ({ 
 	value, 
 	onChange, 
@@ -9,10 +22,10 @@ export const InputSelect = ({
 	items, 
 	Component, 
 	Stub,
-	minLength,
+	minLength = 3,
 	checked,
 	checkedIcon
-}) => {
+}: InputSelect) => {
   return (
 		<div className="input-select">
 			<div className="input-select__input">

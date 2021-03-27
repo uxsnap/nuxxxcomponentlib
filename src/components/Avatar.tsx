@@ -1,7 +1,13 @@
 import React from 'react';
 import { Icon } from './index';
 
-export default ({ className, src, onClick }) => {
+export interface AvatarProps {
+  className?: string;
+  src: string;
+  onClick?: () => void;
+}
+
+export default ({ className, src, onClick }: AvatarProps) => {
 	return (
 		<div className={className ? className : ''}>
 			{src 

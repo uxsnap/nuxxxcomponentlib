@@ -2,7 +2,13 @@ import React, { useState } from 'react';
 import OutsideClickHandler from 'react-outside-click-handler';
 import { Icon, UserItemList } from '.';
 
-export const UserList = ({ icon, items, Component }) => {
+export interface UserListProps {
+  icon?: string;
+  items?: Array<any>;
+  Component: React.ReactNode;
+}
+
+export const UserList = ({ icon, items, Component }: UserListProps) => {
   const [isActive, setActive] = useState(false);
 
   const toggleSetActive = () => setActive(!isActive);

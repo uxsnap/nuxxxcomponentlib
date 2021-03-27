@@ -1,7 +1,13 @@
 import React, { useState } from 'react';
 import { Icon, Input } from './index';
 
-export default ({ onDelete, filename, onEdit }) => {
+export interface FileProps {
+	onDelete: () => void;
+	filename: string;
+	onEdit: (filename: string) => void;
+}
+
+export const File =  ({ onDelete, filename, onEdit }: FileProps) => {
 	const [isEditing, setIsEditing] = useState(false);
 	const [fileName, setFileName] = useState(filename);
 
@@ -43,3 +49,5 @@ export default ({ onDelete, filename, onEdit }) => {
 		</div>
 	)
 };
+
+export default File;

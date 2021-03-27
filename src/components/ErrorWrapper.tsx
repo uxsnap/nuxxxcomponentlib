@@ -1,10 +1,18 @@
 import React from 'react';
 import { Icon } from './index';
 
-export default ({ className, error, children, onClose }) => {
+export interface ErrorWrapperProps {
+  className?: string; 
+  error?: any; 
+  children?: React.ReactNode;
+  onClose: () => void;
+  timeToElapse?: number;
+}
+
+export const ErrorWrapper = ({ className, error, children, onClose, timeToElapse = 10000 }: ErrorWrapperProps) => {
 	const { errors } = error;
 
-	setTimeout(() => onClose(), 10000);
+	setTimeout(() => onClose(), timeToElapse);
 
 	return (
 		<div className={`error-wrapper ${className ? className : ''}`}>
@@ -29,3 +37,5 @@ export default ({ className, error, children, onClose }) => {
 		</div>
 	);
 };
+
+export default ErrorWrapper;

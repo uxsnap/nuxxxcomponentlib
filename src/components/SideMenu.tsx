@@ -1,7 +1,13 @@
 import React, { useState } from 'react';
 import { Icon } from './index';
 
-export default ({ onIconClick, children, onActive }) => {
+export interface SideMenuProps {
+  onIconClick?: () => void;
+  children?: React.ReactNode;
+  onActive: (active: boolean) => void;
+}
+
+export default ({ onIconClick, children, onActive }: SideMenuProps) => {
   const [active, setActive] = useState(false);
 
   const handleOnIconClick = () => {

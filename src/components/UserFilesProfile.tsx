@@ -1,7 +1,14 @@
 import React from 'react';
 import { AvatarItem } from './index';
 
-export default ({ className, user, onMouseEnter, active }) => {
+export interface UserFilesProfileProps {
+  className?: string;
+  user?: any;
+  onMouseEnter: (id: string, selector: string) => void;
+  active: boolean;
+}
+
+export const UserFilesProfile = ({ className, user, onMouseEnter, active }: UserFilesProfileProps) => {
   const currentUserSelector = `user-files__user_${user.id}`;
   const innerOnMouseEnter = (e) => {
     onMouseEnter(user.id, currentUserSelector);
@@ -18,3 +25,5 @@ export default ({ className, user, onMouseEnter, active }) => {
     </div>
   )
 };
+
+export default UserFilesProfile;

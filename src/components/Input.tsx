@@ -2,7 +2,19 @@ import React from 'react';
 import { checkClass } from "./index";
 import { Icon } from './index';
 
-export default ({ 
+export interface InputProps {
+	id?: string;
+	label?: string;
+	type?: string;
+	value: string;
+	onChange: (value: string) => void;
+	className?: string;
+	placeholder?: string;
+	rightIcon?: string;
+	onRightIconClick?: () => void;
+}
+
+export const Input = ({
 	id, 
 	label, 
 	type, 
@@ -12,7 +24,7 @@ export default ({
 	placeholder,
 	rightIcon,
   onRightIconClick
-}) => {
+}: InputProps) => {
   return (
     <div className={checkClass("iinput", className)}>
       <label className="iinput__label" htmlFor={id}>{label}</label>
@@ -32,3 +44,5 @@ export default ({
     </div>
   );
 }
+
+export default Input;

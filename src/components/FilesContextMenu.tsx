@@ -1,14 +1,25 @@
 import React, { useRef } from 'react';
 import { IconTextList, LazyRender } from '.';
 
-export const FilesContextMenu = ({ className, onLoad, active, files, userId, onMouseLeave, status }) => {
+export interface FilesContextMenu {
+  className?: string;
+  onLoad: (id: string, text: string) => void;
+  active: boolean;
+  files: Array<any>;
+  userId: string;
+  onMouseLeave: (event: any) => void;
+  status: string;
+}
+
+export const FilesContextMenu = ({ className, onLoad, active, files, userId, onMouseLeave, status }:
+                                   FilesContextMenu) => {
   const menu = useRef(null);
   const innerOnMouseLeave = (e) => {
     onMouseLeave(e);
     e.stopPropagation();
   }
   const preparedFiles = files.map((file) => ({ ...file, onClick: () => onLoad(file.id, file.text) }));
-  const getElem = (userId) => document.querySelector('.' + userId);
+  const getElem = (userId: string): any => document.querySelector('.' + userId);
   const contextMenuClassName = () => `files-context-menu ${className ? className : ''} ${active ? 'active' : ''}`;
 
   return userId && (

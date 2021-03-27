@@ -2,7 +2,13 @@ import React from 'react';
 import { generateKey } from './index';
 import { Icon } from './index';
 
-export default ({ className, items, stub }) => (
+export interface IconListProps {
+	className?: string;
+	items: Array<any>;
+	stub?: any;
+}
+
+export const IconList = ({ className, items, stub }: IconListProps) => (
  	<div className={`icon-list ${className}`}>
  		<ul className="icon-list__list">
  			{items.length 
@@ -17,3 +23,5 @@ export default ({ className, items, stub }) => (
  		</ul>
  	</div>
 );
+
+export default IconList;
