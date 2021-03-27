@@ -1,4 +1,4 @@
- import { NoInfo } from '.';
+ import { NoInfo } from '../index';
  import React from 'react';
 
 export interface UserItemListProps {

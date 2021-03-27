@@ -1,5 +1,5 @@
 import React from 'react';
-import { UserListItem, Icon } from './index';
+import { UserListItem, Icon } from '../index';
 
 export interface AvatarItemProps {
 	className?: string;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Avatar, RoundedInitials } from './index';
+import { Avatar, RoundedInitials } from '../index';
 
 export interface UserListItemProps {
   className?: string;

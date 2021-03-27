@@ -1,5 +1,5 @@
 import React from 'react';
-import { UserListItem, IconList } from './index';
+import { UserListItem, IconList } from '../index';
 
 export interface UserRequestItemProps {
   className?: string;

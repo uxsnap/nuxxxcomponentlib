@@ -6,3 +6,4 @@ export interface ColProps {
 }
 export declare const Col: ({ className, children, style }: ColProps) => JSX.Element;
 export default Col;
+//# sourceMappingURL=Col.d.ts.map

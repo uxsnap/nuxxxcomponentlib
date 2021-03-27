@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Icon, Input } from './index';
+import { Icon, Input } from '../index';
 
 export interface FileProps {
 	onDelete: () => void;

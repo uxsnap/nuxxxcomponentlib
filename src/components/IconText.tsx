@@ -1,5 +1,5 @@
 import React from 'react';
-import { Icon, Row } from './index';
+import { Icon, Row } from '../index';
 
 export const IconText = ({ className, iconType, text, onClick }) => {
   return (

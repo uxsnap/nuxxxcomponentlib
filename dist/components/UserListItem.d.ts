@@ -7,3 +7,4 @@ export interface UserListItemProps {
 }
 export declare const UserListItem: ({ className, img, text, children }: UserListItemProps) => JSX.Element;
 export default UserListItem;
+//# sourceMappingURL=UserListItem.d.ts.map

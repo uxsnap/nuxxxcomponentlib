@@ -6,3 +6,4 @@ export interface FileProps {
 }
 export declare const File: ({ onDelete, filename, onEdit }: FileProps) => JSX.Element;
 export default File;
+//# sourceMappingURL=File.d.ts.map

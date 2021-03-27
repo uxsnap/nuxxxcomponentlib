@@ -1,0 +1,1 @@
+{"version":3,"file":"SideMenu.d.ts","sourceRoot":"","sources":["../../src/components/SideMenu.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAmB,MAAM,OAAO,CAAC;AAGxC,MAAM,WAAW,aAAa;IAC5B,WAAW,CAAC,EAAE,MAAM,IAAI,CAAC;IACzB,QAAQ,CAAC,EAAE,KAAK,CAAC,SAAS,CAAC;IAC3B,QAAQ,EAAE,CAAC,MAAM,EAAE,OAAO,KAAK,IAAI,CAAC;CACrC;8DAEoD,aAAa;AAAlE,wBAqBE"}

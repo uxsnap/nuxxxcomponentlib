@@ -5,3 +5,4 @@ export interface RoundedInitialsProps {
 }
 export declare const RoundedInitials: ({ className, name }: RoundedInitialsProps) => JSX.Element;
 export default RoundedInitials;
+//# sourceMappingURL=RoundedInitials.d.ts.map

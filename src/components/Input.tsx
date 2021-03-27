@@ -1,6 +1,6 @@
 import React from 'react';
-import { checkClass } from "./index";
-import { Icon } from './index';
+import { checkClass } from "../index";
+import { Icon } from '../index';
 
 export interface InputProps {
 	id?: string;

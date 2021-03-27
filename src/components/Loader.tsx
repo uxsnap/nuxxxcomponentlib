@@ -1,8 +1,10 @@
 import React from 'react';
-// @ts-ignore
-import loader from '../loader.gif';
 
-export const Loader = () => {
+export interface LoaderProps {
+	loader?: any;
+}
+
+export const Loader = ({ loader } : LoaderProps) => {
 	return (
 		<div className="loader">
 			<img src={loader} alt="LOADER" />

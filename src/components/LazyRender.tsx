@@ -1,6 +1,6 @@
 import React from 'react';
-import { RES_STATUS } from "./index";
-import { Loader } from "./index";
+import { RES_STATUS } from "../index";
+import { Loader } from "../index";
 
 export interface LazyRenderProps {
   status: string | number;

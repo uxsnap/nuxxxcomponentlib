@@ -10,3 +10,4 @@ export interface FilesContextMenu {
 }
 export declare const FilesContextMenu: ({ className, onLoad, active, files, userId, onMouseLeave, status }: FilesContextMenu) => JSX.Element;
 export default FilesContextMenu;
+//# sourceMappingURL=FilesContextMenu.d.ts.map

@@ -1,6 +1,6 @@
 import React from 'react';
-import { generateKey } from './index';
-import { Icon } from './index';
+import { generateKey } from '../index';
+import { Icon } from '../index';
 
 export interface IconListProps {
 	className?: string;

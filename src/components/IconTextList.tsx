@@ -1,4 +1,4 @@
-import { IconText, NoInfo } from '.';
+import { IconText, NoInfo } from '../index';
 import React from 'react';
 
 export interface IconTextListProps {

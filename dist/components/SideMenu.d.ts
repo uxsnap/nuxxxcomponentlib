@@ -6,3 +6,4 @@ export interface SideMenuProps {
 }
 declare const _default: ({ onIconClick, children, onActive }: SideMenuProps) => JSX.Element;
 export default _default;
+//# sourceMappingURL=SideMenu.d.ts.map

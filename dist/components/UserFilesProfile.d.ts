@@ -7,3 +7,4 @@ export interface UserFilesProfileProps {
 }
 export declare const UserFilesProfile: ({ className, user, onMouseEnter, active }: UserFilesProfileProps) => JSX.Element;
 export default UserFilesProfile;
+//# sourceMappingURL=UserFilesProfile.d.ts.map

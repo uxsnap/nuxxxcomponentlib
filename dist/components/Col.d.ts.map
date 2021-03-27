@@ -1,0 +1,1 @@
+{"version":3,"file":"Col.d.ts","sourceRoot":"","sources":["../../src/components/Col.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,MAAM,OAAO,CAAC;AAE1B,MAAM,WAAW,QAAQ;IACvB,SAAS,CAAC,EAAE,MAAM,CAAC;IACnB,QAAQ,EAAE,KAAK,CAAC,SAAS,CAAC;IAC1B,KAAK,EAAE,GAAG,CAAC;CACZ;AAED,eAAO,MAAM,GAAG,mCAAoC,QAAQ,gBAI3D,CAAA;AAED,eAAe,GAAG,CAAC"}

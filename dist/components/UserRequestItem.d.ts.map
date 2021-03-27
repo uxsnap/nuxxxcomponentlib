@@ -1,0 +1,1 @@
+{"version":3,"file":"UserRequestItem.d.ts","sourceRoot":"","sources":["../../src/components/UserRequestItem.tsx"],"names":[],"mappings":";AAGA,MAAM,WAAW,oBAAoB;IACnC,SAAS,CAAC,EAAE,MAAM,CAAC;IACnB,GAAG,EAAE,MAAM,CAAC;IACZ,IAAI,EAAE,MAAM,CAAC;IACb,KAAK,CAAC,EAAE,KAAK,CAAC,GAAG,CAAC,CAAC;CACpB;AAED,eAAO,MAAM,eAAe,oCAAqC,oBAAoB,gBAQpF,CAAC;AAEF,eAAe,eAAe,CAAC"}

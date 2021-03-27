@@ -6,3 +6,4 @@ export interface LazyRenderProps {
 }
 export declare const LazyRender: ({ status, children, error }: LazyRenderProps) => any;
 export default LazyRender;
+//# sourceMappingURL=LazyRender.d.ts.map

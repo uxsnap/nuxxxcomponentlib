@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import OutsideClickHandler from 'react-outside-click-handler';
-import { Icon, UserItemList } from '.';
+import { Icon, UserItemList } from '../index';
 
 export interface UserListProps {
   icon?: string;

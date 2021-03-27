@@ -6,3 +6,4 @@ export interface NoInfoProps {
 }
 export declare const NoInfo: ({ className, children, style }: NoInfoProps) => JSX.Element;
 export default NoInfo;
+//# sourceMappingURL=NoInfo.d.ts.map

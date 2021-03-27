@@ -8,3 +8,4 @@ export interface FileListProps {
 }
 declare const _default: ({ className, items, stub, onDelete, onEdit }: FileListProps) => JSX.Element;
 export default _default;
+//# sourceMappingURL=FileList.d.ts.map

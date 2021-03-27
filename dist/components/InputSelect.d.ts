@@ -13,3 +13,4 @@ export interface InputSelect {
 }
 export declare const InputSelect: ({ value, onChange, rightIcon, placeholder, items, Component, Stub, minLength, checked, checkedIcon }: InputSelect) => JSX.Element;
 export default InputSelect;
+//# sourceMappingURL=InputSelect.d.ts.map

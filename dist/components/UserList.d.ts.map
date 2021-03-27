@@ -1,0 +1,1 @@
+{"version":3,"file":"UserList.d.ts","sourceRoot":"","sources":["../../src/components/UserList.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAmB,MAAM,OAAO,CAAC;AAIxC,MAAM,WAAW,aAAa;IAC5B,IAAI,CAAC,EAAE,MAAM,CAAC;IACd,KAAK,CAAC,EAAE,KAAK,CAAC,GAAG,CAAC,CAAC;IACnB,SAAS,EAAE,KAAK,CAAC,SAAS,CAAC;CAC5B;AAED,eAAO,MAAM,QAAQ,+BAAgC,aAAa,gBAoBjE,CAAC;AAEF,eAAe,QAAQ,CAAC"}

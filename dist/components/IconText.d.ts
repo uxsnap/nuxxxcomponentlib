@@ -6,3 +6,4 @@ export declare const IconText: ({ className, iconType, text, onClick }: {
     onClick: any;
 }) => JSX.Element;
 export default IconText;
+//# sourceMappingURL=IconText.d.ts.map

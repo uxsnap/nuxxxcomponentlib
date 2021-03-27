@@ -1,5 +1,5 @@
 import React from 'react';
-import { File } from './index';
+import { File } from '../index';
 
 export interface FileListProps {
 	className?: string;

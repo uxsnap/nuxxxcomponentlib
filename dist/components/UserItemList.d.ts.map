@@ -1,0 +1,1 @@
+{"version":3,"file":"UserItemList.d.ts","sourceRoot":"","sources":["../../src/components/UserItemList.tsx"],"names":[],"mappings":";AAGA,MAAM,WAAW,iBAAiB;IAChC,SAAS,EAAE,GAAG,CAAC;IACf,KAAK,CAAC,EAAE,KAAK,CAAC,GAAG,CAAC,CAAC;CACpB;AAED,eAAO,MAAM,YAAY,yBAA0B,iBAAiB,gBAQnE,CAAC;AAEF,eAAe,YAAY,CAAC"}

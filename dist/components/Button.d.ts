@@ -7,3 +7,4 @@ export interface ButtonProps {
 }
 export declare const Button: ({ className, children, type, onClick }: ButtonProps) => JSX.Element;
 export default Button;
+//# sourceMappingURL=Button.d.ts.map

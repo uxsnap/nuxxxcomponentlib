@@ -12,3 +12,4 @@ export interface InputProps {
 }
 export declare const Input: ({ id, label, type, value, onChange, className, placeholder, rightIcon, onRightIconClick }: InputProps) => JSX.Element;
 export default Input;
+//# sourceMappingURL=Input.d.ts.map

@@ -5,3 +5,4 @@ export interface IconTextListProps {
 }
 export declare const IconTextList: ({ className, items }: IconTextListProps) => JSX.Element;
 export default IconTextList;
+//# sourceMappingURL=IconTextList.d.ts.map

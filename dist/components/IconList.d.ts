@@ -6,3 +6,4 @@ export interface IconListProps {
 }
 export declare const IconList: ({ className, items, stub }: IconListProps) => JSX.Element;
 export default IconList;
+//# sourceMappingURL=IconList.d.ts.map

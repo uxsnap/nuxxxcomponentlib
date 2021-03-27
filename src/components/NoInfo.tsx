@@ -1,5 +1,5 @@
 import React from 'react';
-import {checkClass} from "./index";
+import {checkClass} from "../index";
 
 export interface NoInfoProps {
   className?: string;

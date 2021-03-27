@@ -5,3 +5,4 @@ export interface IconProps {
 }
 export declare const Icon: ({ iconType, onClick }: IconProps) => JSX.Element;
 export default Icon;
+//# sourceMappingURL=Icon.d.ts.map

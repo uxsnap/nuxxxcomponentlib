@@ -5,3 +5,4 @@ export interface UserItemListProps {
 }
 export declare const UserItemList: ({ Component, items }: UserItemListProps) => JSX.Element;
 export default UserItemList;
+//# sourceMappingURL=UserItemList.d.ts.map

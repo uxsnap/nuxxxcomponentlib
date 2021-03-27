@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { IconTextList, LazyRender } from '.';
+import { IconTextList, LazyRender } from '../index';
 
 export interface FilesContextMenu {
   className?: string;

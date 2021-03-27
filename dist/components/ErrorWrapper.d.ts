@@ -8,3 +8,4 @@ export interface ErrorWrapperProps {
 }
 export declare const ErrorWrapper: ({ className, error, children, onClose, timeToElapse }: ErrorWrapperProps) => JSX.Element;
 export default ErrorWrapper;
+//# sourceMappingURL=ErrorWrapper.d.ts.map

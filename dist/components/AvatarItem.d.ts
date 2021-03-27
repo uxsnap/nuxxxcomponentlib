@@ -10,3 +10,4 @@ export interface AvatarItemProps {
 }
 export declare const AvatarItem: ({ className, id, img, text, icon, onIconClick, checked }: AvatarItemProps) => JSX.Element;
 export default AvatarItem;
+//# sourceMappingURL=AvatarItem.d.ts.map

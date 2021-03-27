@@ -6,3 +6,4 @@ export interface AvatarProps {
 }
 declare const _default: ({ className, src, onClick }: AvatarProps) => JSX.Element;
 export default _default;
+//# sourceMappingURL=Avatar.d.ts.map
