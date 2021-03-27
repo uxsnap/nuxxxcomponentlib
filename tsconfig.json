@@ -2,7 +2,8 @@
   "compilerOptions": {
     "target": "es5",
     "module": "CommonJS",
-    "sourceMap": false,
+    "declaration": true,
+    "declarationDir": "dist",
     "allowJs": true,
     "jsx": "react",
     "esModuleInterop": true,
