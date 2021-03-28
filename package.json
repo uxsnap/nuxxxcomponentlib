@@ -1,10 +1,12 @@
 {
   "name": "nuxxxcomponentlib",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
-    "build": "tsc -p ."
+    "build": "npm run build-typescript && npm run styles",
+    "build-typescript": "tsc -p .",
+    "styles": "node copyStyles.js"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +23,7 @@
     "uuid": "^8.3.2"
   },
   "dependencies": {
+    "copyfiles": "^2.4.1",
     "react-outside-click-handler": "^1.3.0",
     "uuid": "^8.3.2"
   },

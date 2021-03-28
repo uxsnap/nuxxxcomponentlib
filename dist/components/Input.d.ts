@@ -9,7 +9,9 @@ export interface InputProps {
     placeholder?: string;
     rightIcon?: string;
     onRightIconClick?: () => void;
+    onFocus?: () => void;
+    onBlur?: () => void;
 }
-export declare const Input: ({ id, label, type, value, onChange, className, placeholder, rightIcon, onRightIconClick }: InputProps) => JSX.Element;
+export declare const Input: ({ id, label, type, value, onChange, className, placeholder, rightIcon, onRightIconClick, onFocus, onBlur }: InputProps) => JSX.Element;
 export default Input;
 //# sourceMappingURL=Input.d.ts.map

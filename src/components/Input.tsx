@@ -12,6 +12,8 @@ export interface InputProps {
 	placeholder?: string;
 	rightIcon?: string;
 	onRightIconClick?: () => void;
+	onFocus?: () => void;
+	onBlur?: () => void;
 }
 
 export const Input = ({
@@ -23,7 +25,9 @@ export const Input = ({
 	className, 
 	placeholder,
 	rightIcon,
-  onRightIconClick
+  onRightIconClick,
+	onFocus,
+	onBlur
 }: InputProps) => {
   return (
     <div className={checkClass("iinput", className)}>
@@ -35,7 +39,9 @@ export const Input = ({
       	value={value}
       	placeholder={placeholder}
 				autoComplete='off'
-    	/>
+    		onFocus={onFocus}
+				onBlur={onBlur}
+			/>
       {rightIcon &&  
         <Icon 
           iconType={rightIcon}

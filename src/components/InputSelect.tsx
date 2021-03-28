@@ -1,7 +1,7 @@
 import React from 'react';
 import { Input } from '../index';
 
-export interface InputSelect {
+export interface InputSelectProps {
 	value: string;
 	onChange: (val: string) => void;
 	rightIcon?: string;
@@ -12,6 +12,10 @@ export interface InputSelect {
 	minLength: number;
 	checked: Array<string>;
 	checkedIcon?: string;
+	className?: string;
+	onFocus?: () => void;
+	onBlur?: () => void;
+	onRightIconClick?: () => void;
 }
 
 export const InputSelect = ({ 
@@ -24,16 +28,24 @@ export const InputSelect = ({
 	Stub,
 	minLength = 3,
 	checked,
-	checkedIcon
-}: InputSelect) => {
+	checkedIcon,
+	className,
+	onFocus,
+	onBlur,
+	onRightIconClick
+}: InputSelectProps) => {
   return (
 		<div className="input-select">
 			<div className="input-select__input">
-				<Input 
+				<Input
+					onFocus={onFocus}
 	        value={value} 
 	        onChange={onChange}
 	        placeholder={placeholder}
 	        rightIcon={rightIcon}
+					className={className ? className : ''}
+					onBlur={onBlur}
+					onRightIconClick={onRightIconClick}
 	      />
     	</div>
     	{items && value.length > minLength &&
